@@ -19,7 +19,7 @@ Then check out Mallory's profile by following
 ```
 localhost:8080/Mallory
 ```
-Hey, you have been redirected without your will!
+Hey, you have been redirected against your will!
 
 ## Specs
 There are two servers, at port 8080 the naive forum and at 8081 the malicious Mallory server.
