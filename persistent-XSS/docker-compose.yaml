@@ -4,13 +4,11 @@ services:
   naive-server:
     image: "naive-server"
     build: "./naive-server"
-    container_name: "naive-server"
     ports:
       - 8080:8080
 
   mallory-server:
     image: "mallory-server"
     build: "./mallory-server"
-    container_name: "mallory-server"
     ports:
       - 8081:8081
